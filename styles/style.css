@@ -113,6 +113,80 @@ body {
 
 
 /* future vision section styles */
+.vision-parent {
+    margin-bottom: 32px;
+}
 .vision-para {
-    
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(14,14,14,0.7);
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+.vision-card {
+    padding: 32px;
+    max-width: 410px;
+    border: 1px solid rgba(14,14,14,0.15);
+    border-radius: 16px;
+}
+.vision-card:nth-child(1) {
+    background-color: rgba(84, 144, 245, 0.2);
+}
+.vision-card:nth-child(2) {
+    background-color: rgba(198, 228, 214, 1);
+}
+.vision-card:nth-child(2) p {
+    margin-bottom: 15px;
+}
+.vision-card:nth-child(3) {
+    background-color: #F7EBCF;
+}
+.vision-btn {
+    background-color: #5490F5;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    color: #FFFFFF;
+    margin-top: 24px;
+}
+.vision-card-heading {
+    margin-bottom: 24px;
+}
+
+/* quote section styles */
+.quote-parent {
+    background-color: #FFFFFF;
+    padding: 48px 24px;
+    border: 1px solid rgba(14,14,14,0.15);
+    border-radius: 16px;
+    margin-bottom: 80px;
+    position: relative;
+}
+.quote-parent .quote-icon {
+    color: #0E0E0E;
+    opacity: 30%;
+    font-size: 64px;
+    position: absolute;
+    top: 20px;
+    left: 10px;
+}
+.quote-para {
+    font-size: 16px;
+    line-height: 24px;
+    color: #0E0E0E;
+    opacity: 80%;
+    margin-bottom: 12px;
+}
+
+.quote-parent h2 {
+    font-size: 20px;
+    font-weight: 500;
+    color: #0E0E0E;
+    opacity: 80%;
+}
+.quote-desc {
+    font-size: 16px;
+    line-height: 24px;
+    color: #0E0E0E;
+    opacity: 60%;
 }
