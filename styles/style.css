@@ -190,3 +190,32 @@ body {
     color: #0E0E0E;
     opacity: 60%;
 }
+
+/* opinion section styles */
+.opinion-parent h2 {
+    font-size: 40px;
+    font-weight: bold;
+    color: #0E0E0E;
+    margin-bottom: 24px;
+}
+.opinion-parent table, td, th{
+    border: 1px solid lightgray;
+    border-collapse: collapse;
+}
+.opinion-parent table td,th {
+    padding: 24px;
+}
+.opinion-parent .table {
+    background-color: #FFFFFF;
+    padding: 32px;
+    border: 1px solid lightgray;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+}
+.opinion-parent .table table {
+    width: 1216px;
+}
+.opinion-parent .table table th {
+    text-align: left;
+}
