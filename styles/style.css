@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Fira Sans", sans-serif;
+}
+body {
+    background-color: #F5F5F5;
+}
+
+/* shared styles */
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.btn {
+    padding: 15px 30px;
+    border: 1px solid #006A50;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #F5F5F5;
+    color: #006A50;
+}
+
+
+
+/* main styles */
+/* nav section styles */
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0px;
+}
+.nav-container h2 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #0E0E0E;
+}
+
+
+/* hero section styles */
+.hero-parent {
+    background-color: #C6E4D6;
+    border-radius: 24px;
+}
+.hero-parent .hero-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.hero-parent .hero-container .hero-left {
+    max-width: 622px;
+    margin: 118px 0;
+}
+.hero-parent .hero-container .hero-left h4 {
+    font-size: 24px;
+    font-weight: 500;
+    color: rgba(14,14,14,0.5);
+    margin-bottom: 16px;
+}
+.hero-parent .hero-container .hero-left h2 {
+    font-size: 56px;
+    font-weight: bold;
+    color: #0E0E0E;
+    margin-bottom: 24px;
+}
+.hero-parent .hero-container .hero-left button {
+    color: #FFFFFF;
+    background-color: #006A50;
+}
+
+/* pillars section styles */
+.pillars-of-bangladesh-container {
+    margin-bottom: 80px;
+}
+.pillars-of-bangladesh-container .pillars-heading {
+    font-size: 40px;
+    font-weight: bold;
+    color: #0E0E0E;
+    margin-top: 80px;
+    margin-bottom: 32px;
+}
+.pillars-cards-container {
+    display: flex;
+    gap: 24px;
+}
+.pillars-cards-container .pillars-card {
+    background-color: #FFFFFF;
+    padding: 24px;
+    border: 1px solid rgba(14,14,14,0.15);
+    border-radius: 16px;
+}
+.pillars-cards-container .pillars-card img {
+    height: 64px;
+    width: 64px;
+    margin-bottom: 24px;
+}
+.pillars-cards-container .pillars-card h2 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #0E0E0E;
+    opacity: 80%;
+    margin-bottom: 12px;
+}
+.pillars-cards-container .pillars-card p {
+    font-size: 16px;
+    line-height: 24px;
+    color: #0E0E0E;
+    opacity: 70%;
+}
+
+
+/* future vision section styles */
+.vision-para {
+    
+}
